@@ -1,8 +1,8 @@
 {% set name = "intervals" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "c49f6956d0f26e4b3b1d07059c3801146747fa1e372c0023b171a53ea3bdfef5" %}
+{% set hash = "055bd20378e2728e2e1752dfc4c05d1647814c22cab390a3aaa3cd29bcd61138" %}
 {% set build = 0 %}
 
 package:
