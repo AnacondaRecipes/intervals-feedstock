@@ -20,16 +20,21 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.5
+    - pip
     - setuptools
-
+    - wheel
   run:
-    - python
+    - python >=3.5
     - infinity >=0.1.3
 
 test:
   imports:
     - intervals
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/kvesteri/intervals
@@ -38,7 +43,7 @@ about:
   license_family: BSD
   summary: 'Python tools for handling intervals (ranges of comparable objects).'
   dev_url: https://github.com/kvesteri/intervals
-  doc_url: https://github.com/kvesteri/intervals
+  doc_url: https://github.com/kvesteri/intervals/blob/master/README.rst
 
 extra:
   recipe-maintainers:
